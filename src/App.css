@@ -73,8 +73,7 @@
   border-bottom-width: 2px;
 }
 .mist{
-  border: 2px white;
-  border-bottom: white;
+  border-bottom-color: whitesmoke;
   border-bottom-style: none;
   border-bottom-width: medium;
 }
@@ -90,9 +89,16 @@
 .w-5 {
   width: 1.25rem;
 }
-.text-indigo-500 {
+.cadena {
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: whitesmoke;
+}
+.text-bryan{
+  color: whitesmoke;
+}
+.text-bryan:hover{
+  color: #FFE15D;
+
 }
 .group:hover .group-hover\:text-indigo-400 {
   --tw-text-opacity: 1;
@@ -121,7 +127,7 @@
 }
 .bg-indigo-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+  background-color: #070d53;
 }
 .relative {
   position: relative;
@@ -141,6 +147,9 @@
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+.wd-18{
+  width: 18rem;
 }
 .focus\:ring-2:focus {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);

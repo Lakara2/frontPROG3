@@ -72,9 +72,9 @@ export default function ForgotPassword() {
                 Sign up
               </button>
             </div>
-            <div className="text-sm text-center">
+            <div className="text-sm m-2 text-center">
               <Link
-                className="font-medium text-indigo-600 hover:text-indigo-500"
+                className="font-medium text-bryan"
                 to="/login"
               >
                 Back to login

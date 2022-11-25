@@ -103,9 +103,9 @@ export default function Signup() {
                 Sign up
               </button>
             </div>
-            <div className="text-sm text-center">
+            <div className="text-sm  mt-2 mb-2 text-center">
               <Link
-                className="font-medium text-indigo-600 hover:text-indigo-500"
+                className="font-medium text-bryan"
                 to="/login"
               >
                 Already have an account?

@@ -84,8 +84,8 @@ export default function Login() {
                                 <label htmlFor="remember-me" className="ml-2 block text-light">Remember me</label>
                             </div>
 
-                            <div className="col-6 text-right">
-                                <Link className="text-danger" to="/forgot-password">Forgot your password ?</Link>
+                            <div className="col-6 text-bryan">
+                                <Link to="/forgot-password" className="text-bryan">Forgot your password ?</Link>
                             </div>
 
                         </div>
@@ -100,14 +100,13 @@ export default function Login() {
                                                   border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-light
                                                   hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" >
                 <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                  <LockClosedIcon className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" aria-hidden="true"/>
+                  <LockClosedIcon className="h-5 w-5 cadena " aria-hidden="true"/>
                         </span> Sign in
-
                             </button>
 
                         </div>
                         <div className="text-sm text-center m-3">
-                            <Link className="text-danger font-medium"
+                            <Link className="font-medium text-bryan"
                                 to="/signup">Don't have an account?</Link>
                         </div>
                     </form>
